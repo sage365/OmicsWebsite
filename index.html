@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OMICS - Natinal Level Biotech Symposium</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="pragma" content="no-cache" />
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/indexStyle.css">	
+</head>
+<body>
+
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#about" class="brand-logo">OMICS</a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="#about"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;ABOUT</a></li>
+					<li><a href="#events1"><i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;&nbsp;EVENTS</a></li>
+					<li><a href="#contact"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;&nbsp;TEAM</a></li>
+					<li><a href="#contact"><i class="fa fa-address-book" aria-hidden="true"></i>&nbsp;&nbsp;CONTACT</a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a href="#about"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;ABOUT</a></li>
+					<li><a href="#events1"><i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;&nbsp;EVENTS</a></li>
+					<li><a href="#contact"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;&nbsp;TEAM</a></li>	
+					<li><a href="#contact"><i class="fa fa-address-book" aria-hidden="true"></i>&nbsp;&nbsp;CONTACT</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<section id="backgroud">    
+		<div class="parallax-container">
+			<div class="parallax">
+				<img class="backgroudImage" src="images/t1.jpg">
+			</div>	
+		</div>	
+		<div class="row heading">
+			<div class="col s12 m12 l12"> 
+				<h1><center>OMICS</center></h1>
+				<a class="waves-effect waves-light btn modal-trigger" href="#modal1">REGISTER</a>
+			</div>	
+		</div> 	
+	</section> 
+
+
+	<div id="modal1" class="modal modal-fixed-footer">
+		<div class="modal-content">
+
+
+			<form class="col s12" action='#'>
+			<div class="row">
+			<div class="col s12 m12 l12">
+			<h2><center>OMICS 2k17 Registrations</center></h2></div>
+			</div>
+				<div class="row">
+					<div class="input-field col s12 m6">
+						<i class="material-icons prefix">person_outline</i>
+						<input id="first_name" type="text" class="validate">
+						<label for="first_name">First Name</label>
+					</div>
+					<div class="input-field col s12 m6">
+						<i class="material-icons prefix">person_outline</i>
+						<input id="last_name" type="text" class="validate">
+						<label for="last_name">Last Name</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12 m6">
+						<i class="material-icons prefix">email</i>
+						<input id="email" type="email" class="validate">
+						<label for="email">Email</label>
+					</div>
+					<div class="input-field col s12 m6">
+						<i class="material-icons prefix">local_phone</i>
+						<input id="phone" type="tel" class="validate">
+						<label for="phone">Phone Number</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<i class="material-icons prefix">school</i>
+						<input id="college" type="text" class="validate">
+						<label for="college">College Name</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12 text-center">
+						<span id='events'>Events</span><br />
+						<div class="row">
+							<div class='col s12 m4'>
+								<p>
+									<input name='selectEvent' type="checkbox" id="event1"/>
+									<label for="event1">Event One</label>
+								</p>
+								<p>
+									<input name='selectEvent' type="checkbox" id="event2"/>
+									<label for="event2">Event Two</label>
+								</p>
+								<p>
+									<input name='selectEvent' type="checkbox" id="event3"/>
+									<label for="event3">Event Three</label>
+								</p>
+							</div>
+							<div class='col s12 m4'>
+								<p>
+									<input name='selectEvent' type="checkbox" id="event4"/>
+									<label for="event4">Event Four</label>
+								</p>
+								<p>
+									<input name='selectEvent' type="checkbox" id="event5"/>
+									<label for="event5">Event Five</label>
+								</p>
+								<p>
+									<input name='selectEvent' type="checkbox" id="event6"/>
+									<label for="event6">Event Six</label>
+								</p>
+							</div>
+							<div class='col s12 m4'>
+								<p>
+									<input name='selectEvent' type="checkbox" id="event7"/>
+									<label for="event7">Event Seven</label>
+								</p>
+								<p>
+									<input name='selectEvent' type="checkbox" id="event8"/>
+									<label for="event8">Event Eight</label>
+								</p>
+								<p>
+									<input name='selectEvent' type="checkbox" id="event9"/>
+									<label for="event9">Event Nine</label>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+
+
+
+		</div>
+
+		<div class="modal-footer">
+			<input  class="modal-action  waves-effect waves-green btn-flat " type="submit" />
+			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat " >Close</a>
+		</div>
+	</div>       
+
+	<section id="about">
+		<div class="slantedLeft1">
+			<div class="row">
+				<div class="col s12 m12 l12"> 
+					<h2><center>OMICS 2k16 National Level Symposium</center></h2>
+				</div>	
+			</div> 
+
+			<div class="row">
+				<div class="col s8 m4 l4 offset-l2 offset-m2">
+					<img class="eventLogo" src="images/Adzap.png">
+				</div>		
+				<div class="col s4 m4 l4 ">
+					<p class="eventBoxText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+				</div>
+			</div>
+
+		</div>    	
+	</section>
+
+	<section id="events1">
+		<div class="slantedRight2">
+			<div class="row">
+				<div class="col s12 m12 l12"> 
+					<h2><center>EVENTS SET I</center></h2>
+				</div>	
+			</div>
+			<div class="row">
+				<div class="col s4 m4 l4 offset-l2 offset-m2">
+					<p class="eventBoxText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+				</div>
+				<div class="col s8 m4 l4">
+					<img class="eventLogo" src="images/Adzap.png">
+				</div>
+			</div>
+		</div>    	
+	</section> 
+
+	<section id="events2">
+		<div class="slantedLeft3">
+			<div class="row">
+				<div class="col s12 m12 l12"> 
+					<h2><center>EVENTS SET II</center></h2>
+				</div>	
+			</div>
+
+			<div class="row">
+				<div class="col s8 m4 l4 offset-l2 offset-m2">
+					<img class="eventLogo" src="images/Adzap.png">
+				</div>		
+				<div class="col s4 m4 l4 ">
+					<p class="eventBoxText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+				</div>
+			</div>
+
+		</div>    	
+	</section> 
+
+	<section id="events3">
+		<div class="slantedRight4">
+			<div class="row">
+				<div class="col s12 m12 l12"> 
+					<h2><center>EVENTS SET III</center></h2>
+				</div>	
+			</div>
+
+			<div class="row">
+				<div class="col s4 m4 l4 offset-l2 offset-m2">
+					<p class="eventBoxText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+				</div>
+				<div class="col s8 m4 l4">
+					<img class="eventLogo" src="images/Adzap.png">
+				</div>
+			</div>
+
+		</div>    	
+	</section> 
+
+	<section id="events4">
+		<div class="slantedLeft5">
+			<div class="row">
+				<div class="col s12 m12 l12"> 
+					<h2><center>EVENTS SET IV</center></h2>
+				</div>	
+			</div>
+
+			<div class="row">
+				<div class="col s8 m4 l4 offset-l2 offset-m2">
+					<img class="eventLogo" src="images/Adzap.png">
+				</div>		
+				<div class="col s4 m4 l4 ">
+					<p class="eventBoxText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+				</div>
+			</div>
+
+		</div>    	
+	</section> 
+
+	<section id="team">
+		<div class="slantedNo1">
+			<div class="row">
+				<div class="col s12 m12 l12"> 
+					<h2><center>TEAM</center></h2>
+				</div>	
+			</div>
+
+			<div class="row">
+				<div class="col s12 m12 l12">
+					<img class="teamLogo" src="images/deadpool.jpg">
+				</div>
+			</div>
+			<div class="row">			
+				<div class="col s12 m8 l8 offset-l2 offset-m2">
+					<p class="eventBoxText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+				</div>	
+			</div>
+
+		</div>    	
+	</section> 
+
+	<section id="contact">
+		<div class="slantedNo2">
+			<div class="row">
+				<div class="col s12 m12 l12"> 
+					<h2><center>CONTACT</center></h2>
+				</div>	
+			</div>    	
+		</div>    	
+	</section>                        
+<!--
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>     
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script> 
+	<script type="text/javascript" src="materialize/js/materialize.min.js"></script> 
+-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
+
+
+<script type="text/javascript">
+	$( document ).ready(function(){
+		$(".button-collapse").sideNav();
+		$('.parallax').parallax();	
+		$('.modal').modal();
+		$('#model1').modal('open');
+		$('#model1').modal('close');
+		$('select').material_select();
+	});
+	$( "#about" ).hide().fadeIn(2500);		
+</script>   
+</body>
+
+<!--
+			<div class="z-depth-5 eventBox"> 
+			<div class="eventBoxTextWrapper leftBox">
+				<p class="eventBoxText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+			</div>
+			<div class="eventBoxTextWrapper rightBox">
+				<p class="eventBoxText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+			</div>				
+			</div>	
+
+		-->
+
+		</html>

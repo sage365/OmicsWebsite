@@ -1,0 +1,201 @@
+body{
+	background-color: #FFFFFF;
+	font-family: "Lato", sans-serif;
+}
+
+h1{
+	font-size: xx-large;
+	color: #FFFFFF;
+}
+
+h2{
+	font-size: x-large;
+	color: #000000;
+}
+
+a{
+	color: #FFFFFF;
+}
+
+.container{
+    width: 100%;
+    margin: 0%;
+}
+
+.parallax-container {
+    height:100vh;
+}
+
+#about{
+	background-color: #FFFFFF;
+	background-color: blue;
+}
+
+
+#events1{
+	background-color: #FFFFFF;
+	background-color: green;
+}
+
+#events2{
+	background-color: #FFFFFF;
+	background-color: yellow;
+}
+
+#events3{
+	background-color: #FFFFFF;
+	background-color: orange;
+}
+
+#events4{
+	background-color: #FFFFFF;
+}
+
+.slantedLeft1 {
+	background-color: red;
+    height:600px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);    
+}
+
+.slantedRight2 {
+	background-color: #FFFFFF;
+	background-color: blue;
+    height:600px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);    
+}
+
+.slantedLeft3 {
+	background-color: green;
+    height:600px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);    
+}
+
+.slantedRight4 {
+	background-color: #FFFFFF;
+	background-color: yellow;
+    height:600px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);    
+}
+
+.slantedLeft5 {
+	background-color: orange;
+    height:600px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);    
+}
+
+.slantedNo1 {
+	background-color: #FFFFFF;
+    height:800px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);   
+}
+
+.slantedNo2 {
+	background-color: purple;
+    height:600px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);   
+}
+
+.row{
+	padding: 2%;
+	margin: 0%;
+}
+
+.heading{
+	position: absolute;
+	opacity: 0.5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #000000!important;
+}
+
+.points{
+	padding: 2%;
+	font-size: large;
+	line-height: 2em;
+	text-align: justify;		
+}
+
+.info{
+	font-size: large;
+	text-align: center;
+}
+
+
+.eventBox{
+	width: 100%;
+	height: 300px;
+	background-color: #F48FB1;
+	padding: 2%;
+	font-size: 1em;
+}
+
+.eventBoxTextWrapper{
+    width: 50%;
+}
+
+.leftBox{
+	float:left;
+}
+
+.rightBox{
+	float: right;
+}
+
+.eventBoxText{
+	font-family: "Lato", sans-serif;
+	text-align: justify;
+    height: 300px;
+    overflow: hidden;	
+}
+
+.eventLogo{
+	width: 100%;
+	height: 300px;
+	padding: 4%;
+}
+
+.teamLogo{
+	width: 100%;
+	height: 400px;
+	padding: 2%;	
+}
+
+nav{
+	background-color: #009688;
+	color: #e3f2fd;
+}
+
+nav .brand-logo{
+	margin-left: 3%;
+	color: #FFFFFF;
+}
+
+nav ul{
+	margin-right: 2%;
+}
+
+nav ul a{
+	color: #FFFFFF;
+}
+
+#introPic{
+    width: 70%;
+    margin-top: 7%;
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#model1 {
+	height: 200px;
+	width: 100%;
+}
+
